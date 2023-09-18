@@ -12,32 +12,22 @@ table{
 
 /*article.html styling*/
 
-
-.first-row{
-    display: flex;
-}
-
-.second-row{
-    overflow:auto;
-    background-color: white;
-    font-weight: bold;
-    height: 50px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    margin: 5px;
-}
-
-.last-row{
-    display: flex;
-}
-
-.first-row p,
-.last-row p{
+.box{
     background-color: #ddbcdd;
-    overflow: hidden;
-    width: 25%;
+    display: inline-block;
+    margin: 0 20px 0 10px;
+    width: 200px;
     height: 100px;
-    margin: 10px;
+    overflow: hidden;
+}
+
+.box2{
+    background-color: azure;
+    overflow: hidden scroll;
+    margin-right: 20px;
+    padding: 0 10px;
+    width: 780px;
+    height: 75px;
 }
 
 /*have fun page styling*/
