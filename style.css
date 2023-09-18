@@ -1,3 +1,4 @@
+/*table.html styling*/
 td{
     border: 1px solid;
     border-radius: 5px;
@@ -7,4 +8,34 @@ td{
 table{
     border-collapse:separate;
     border-spacing:10px 10px;
+}
+
+/*article.html styling*/
+
+
+.first-row{
+    display: flex;
+}
+
+.second-row{
+    overflow:auto;
+    background-color: white;
+    font-weight: bold;
+    height: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin: 5px;
+}
+
+.last-row{
+    display: flex;
+}
+
+.first-row p,
+.last-row p{
+    background-color: #ddbcdd;
+    overflow: hidden;
+    width: 25%;
+    height: 100px;
+    margin: 10px;
 }
