@@ -39,3 +39,29 @@ table{
     height: 100px;
     margin: 10px;
 }
+
+/*have fun page styling*/
+.have-fun #colored-p{
+    color: blue;
+}
+
+.have-fun p a{
+    color: #e5e500;
+}
+
+.have-fun p mark{
+    text-decoration: underline;
+    color: brown;
+}
+
+.have-fun ul ul{
+    color: blue;
+}
+
+.have-fun ul a{
+    color: red;
+}
+
+.have-fun #no-style{
+    list-style-type: none;
+}
